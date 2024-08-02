@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply scroll-smooth;
+}
+
+:root {
+	@apply bg-slate-950 text-slate-300 h-full min-h-[625px] flex flex-col items-stretch font-barlow-condensed;
+	body {
+		@apply grow overflow-auto flex flex-col items-stretch;
+		#__nuxt {
+			@apply contents;
+		}
+	}
+}

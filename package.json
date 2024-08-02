@@ -1,0 +1,21 @@
+{
+	"name": "space-tourism",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@nuxtjs/google-fonts": "^3.2.0",
+		"vite-svg-loader": "^5.1.0"
+	},
+	"devDependencies": {
+		"@nuxtjs/tailwindcss": "^6.12.1",
+		"nuxt": "^3.12.4",
+		"typescript": "^5.5.4"
+	}
+}
